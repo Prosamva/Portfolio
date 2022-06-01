@@ -38,7 +38,7 @@ h2{
     background: rgb(204, 204, 204);
 }
 #nav{
-    padding: 5px;
+    /* padding: 12px; */
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: space-around;
@@ -49,17 +49,21 @@ h2{
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     background: rgba(0, 0, 0, 0.3);
     z-index: 10;
+    padding-top: 12px;
 }
 
 #head {
     font-weight: 700;
     font-size: 28px;
-    padding: 12px;
+    padding: 0 12px;
+    padding-bottom: 12px;
 }
 
 #brand{
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 8px;
+    padding: 0 12px;
+    padding-bottom: 12px;
 }
 
 .container{
